@@ -38,6 +38,7 @@ Wishbone+Partners is a modern, fully responsive architecture firm website templa
 ## ✨ Features
 
 ### Design Features
+
 - ✅ Modern minimalist design
 - ✅ Smooth scroll animations
 - ✅ Hover effects on interactive elements
@@ -48,6 +49,7 @@ Wishbone+Partners is a modern, fully responsive architecture firm website templa
 - ✅ Responsive image galleries
 
 ### Functionality
+
 - ✅ Mobile-friendly hamburger menu
 - ✅ Smooth page scrolling
 - ✅ Interactive project showcases
@@ -58,6 +60,7 @@ Wishbone+Partners is a modern, fully responsive architecture firm website templa
 - ✅ Client testimonials
 
 ### Technical Features
+
 - ✅ CSS Custom Properties (variables)
 - ✅ Flexbox layouts
 - ✅ CSS Grid where applicable
@@ -69,9 +72,11 @@ Wishbone+Partners is a modern, fully responsive architecture firm website templa
 ## 🎬 Demo
 
 ### Desktop View
+
 The website features a full-screen hero section, elegant navigation, and smooth transitions between sections.
 
 ### Mobile View
+
 Responsive design adapts perfectly to mobile devices with a collapsible navigation menu and optimized content layout.
 
 ## 🛠 Technologies
@@ -85,6 +90,7 @@ Responsive design adapts perfectly to mobile devices with a collapsible navigati
 ## 📦 Installation
 
 ### Prerequisites
+
 - A modern web browser (Chrome, Firefox, Safari, Edge)
 - Text editor (VS Code, Sublime Text, etc.)
 - Basic knowledge of HTML/CSS
@@ -92,12 +98,14 @@ Responsive design adapts perfectly to mobile devices with a collapsible navigati
 ### Quick Start
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/yourusername/wishbone-partners.git
    cd wishbone-partners
    ```
 
 2. **Project structure should look like this:**
+
    ```
    wishbone-partners/
    ├── index.html
@@ -127,13 +135,14 @@ Responsive design adapts perfectly to mobile devices with a collapsible navigati
 3. **Open in browser**
    - Simply double-click `index.html` or
    - Use a local server (recommended):
+
      ```bash
      # Using Python
      python -m http.server 8000
-     
+
      # Using Node.js
      npx http-server
-     
+
      # Using PHP
      php -S localhost:8000
      ```
@@ -179,13 +188,13 @@ Edit CSS custom properties in `styles/style.css`:
 
 ```css
 :root {
-  --color-primary: #1b1a1a;      /* Primary dark color */
-  --color-secondary: #645c55;     /* Secondary gray */
-  --color-accent: #403e3b;        /* Accent brown */
-  --color-bg-light: #ece7e4;      /* Light background */
-  --color-bg-gray: #f7f7f7;       /* Gray background */
-  --color-bg-tan: #cec4bc;        /* Tan background */
-  --color-white: #ffffff;         /* White */
+  --color-primary: #1b1a1a; /* Primary dark color */
+  --color-secondary: #645c55; /* Secondary gray */
+  --color-accent: #403e3b; /* Accent brown */
+  --color-bg-light: #ece7e4; /* Light background */
+  --color-bg-gray: #f7f7f7; /* Gray background */
+  --color-bg-tan: #cec4bc; /* Tan background */
+  --color-white: #ffffff; /* White */
 }
 ```
 
@@ -215,6 +224,7 @@ Adjust animation timing in CSS:
 ### Content
 
 1. **Company Name**: Update in `index.html`
+
    ```html
    <span class="thin">YourCompany</span><span class="bold">+Partners</span>
    ```
@@ -226,8 +236,8 @@ Adjust animation timing in CSS:
 
 ## 🌐 Browser Support
 
-| Browser | Version |
-|---------|---------|
+| Browser | Version   |
+| ------- | --------- |
 | Chrome  | ✅ Latest |
 | Firefox | ✅ Latest |
 | Safari  | ✅ Latest |
@@ -235,6 +245,7 @@ Adjust animation timing in CSS:
 | Opera   | ✅ Latest |
 
 ### Mobile Support
+
 - ✅ iOS Safari 12+
 - ✅ Chrome Mobile
 - ✅ Firefox Mobile
@@ -263,10 +274,16 @@ Adjust animation timing in CSS:
 
 ```html
 <!-- Lazy loading images -->
-<img src="image.jpg" alt="Description" loading="lazy">
+<img src="image.jpg" alt="Description" loading="lazy" />
 
 <!-- Preload critical fonts -->
-<link rel="preload" href="fonts/poppins.woff2" as="font" type="font/woff2" crossorigin>
+<link
+  rel="preload"
+  href="fonts/poppins.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
 ```
 
 ## ♿ Accessibility
@@ -298,9 +315,15 @@ Users who prefer reduced motion will see simplified animations:
 
 ```css
 /* Desktop First */
-@media only screen and (max-width: 992px)  { /* Tablet */ }
-@media only screen and (max-width: 768px)  { /* Small Tablet */ }
-@media only screen and (max-width: 576px)  { /* Mobile */ }
+@media only screen and (max-width: 992px) {
+  /* Tablet */
+}
+@media only screen and (max-width: 768px) {
+  /* Small Tablet */
+}
+@media only screen and (max-width: 576px) {
+  /* Mobile */
+}
 ```
 
 ## 🚀 Deployment
@@ -333,6 +356,7 @@ Upload all files to your web server via FTP/SFTP.
 ## 🔧 Advanced Features (Future Enhancements)
 
 ### Potential Additions:
+
 - [ ] Contact form with validation
 - [ ] Project filtering/search
 - [ ] Lightbox for images
@@ -435,7 +459,7 @@ SOFTWARE.
 
 **Developer**
 
-- GitHub: [@Abbosbek-cloud](https://github.com/Abbosbek-cloud)
+- GitHub: [@abbosbek-sulaymonov](https://github.com/abbosbek-sulaymonov)
 - LinkedIn: [Abbosbek Sulaymonov](https://linkedin.com/in/yourprofile)
 - Email: abek01sulaymonov@gmail.com
 
